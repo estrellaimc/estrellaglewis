@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Estrella G. Lewis | Portfolio">
+    <meta property="og:image" content="https://i.imgur.com/OHMAbBi.png">
+    <meta property="og:description" content="Integrated Marketing Communications Student | Cosmic Strategist">
     <title>Estrella G. Lewis | Portfolio</title>
     <style>
         /* General Reset */
@@ -63,16 +66,16 @@
         }
 
         /* Remove default link styles & keep text gold */
-.grid-container a {
-    text-decoration: none; /* Removes underline */
-    color: #ffd020; /* Keeps text gold */
-    transition: 0.3s;
-}
+        .grid-container a {
+            text-decoration: none;
+            color: #ffd020;
+            transition: 0.3s;
+        }
 
-/* Hover effect - subtle glow */
-.grid-container a:hover {
-    text-shadow: 0 0 10px #ffd020;
-}
+        /* Hover effect - subtle glow */
+        .grid-container a:hover {
+            text-shadow: 0 0 10px #ffd020;
+        }
 
         .grid-item {
             background: #111;
@@ -116,14 +119,13 @@
 
     <!-- Navbar -->
     <nav>
-    <a href="/about">About</a>
-    <a href="/campaignexamples">Campaign Examples</a>
-    <a href="/casestudies">Case Studies</a>
-    <a href="/podcasts">Podcasts</a>
-    <a href="/connect">Connect with me (like actually)!</a>
-    <a href="/starstuff">Star Stuff</a>
-</nav>
-
+        <a href="/about/index.html">About</a>
+        <a href="/campaignexamples/index.html">Campaign Examples</a>
+        <a href="/casestudies/index.html">Case Studies</a>
+        <a href="/podcasts/index.html">Podcasts</a>
+        <a href="/connect/index.html">Connect with me (like actually)!</a>
+        <a href="/starstuff/index.html">Star Stuff</a>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -131,29 +133,29 @@
         <p>Integrated Marketing Communications Student | Cosmic Strategist</p>
     </section>
 
- <!-- About Section -->
-<section id="about" class="grid-container">
-    <div class="grid-item" onclick="window.location.href='/about'">
-        <img src="https://i.imgur.com/OHMAbBi.png" alt="The Hummingbird Approach" width="200">
-        <h2>About Me</h2>
-        <p>"The Hummingbird Approach"</p>
-    </div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="grid-container">
+        <div class="grid-item" onclick="window.location.href='/about/index.html'">
+            <img src="https://i.imgur.com/OHMAbBi.png" alt="The Hummingbird Approach" width="200">
+            <h2>About Me</h2>
+            <p>"The Hummingbird Approach"</p>
+        </div>
+    </section>
 
-<!-- Work Grid -->
-<section id="work" class="grid-container">
-    <div class="grid-item" onclick="window.location.href='/campaignexamples'">
-        <img src="https://i.imgur.com/IL4xA61.png" alt="Campaign Examples">
-        <h3>Campaign Examples</h3>
-        <p>What would I do?</p>
-    </div>
+    <!-- Work Grid -->
+    <section id="work" class="grid-container">
+        <div class="grid-item" onclick="window.location.href='/campaignexamples/index.html'">
+            <img src="https://i.imgur.com/IL4xA61.png" alt="Campaign Examples">
+            <h3>Campaign Examples</h3>
+            <p>What would I do?</p>
+        </div>
 
-    <div class="grid-item" onclick="window.location.href='/casestudies'">
-        <img src="https://i.imgur.com/3stGjvi.png" alt="Case Studies" width="200">
-        <h3>Case Studies</h3>
-        <p>Projects from my academic journey.</p>
-    </div>
-</section>
+        <div class="grid-item" onclick="window.location.href='/casestudies/index.html'">
+            <img src="https://i.imgur.com/3stGjvi.png" alt="Case Studies" width="200">
+            <h3>Case Studies</h3>
+            <p>Projects from my academic journey.</p>
+        </div>
+    </section>
 
     <!-- Podcast Section -->
     <section id="podcasts" class="grid-container">
